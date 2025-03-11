@@ -143,13 +143,7 @@ function App() {
           <Typography variant="h5" gutterBottom>
             テキスト出力
           </Typography>
-          <TextField
-            multiline
-            fullWidth
-            rows={20}
-            value={outputText}
-            InputProps={{ readOnly: true }}
-          />
+          <TextField multiline fullWidth rows={20} value={outputText} />
         </Paper>
       </Box>
 
