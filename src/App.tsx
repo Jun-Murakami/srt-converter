@@ -201,6 +201,11 @@ function App() {
           ３．変換ボタンを押す
         </Typography>
       </Box>
+      <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2, gap: 5 }}>
+        <Typography variant="caption" color="text.secondary" gutterBottom>
+          ※テキスト情報がサーバに送信されることはありません。ローカルでのみ処理されます
+        </Typography>
+      </Box>
     </Container>
   );
 }
